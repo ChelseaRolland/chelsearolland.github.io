@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    background-color: #8B7A85;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.nav-links>li{
+    list-style: none;
+    padding: 1em;
+}
+.nav-links>li>a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Comic Sans MS";
+}
+.nav-links>li>a:hover{
+    color: black;
+    background-color: #FFFFFF;
+}
