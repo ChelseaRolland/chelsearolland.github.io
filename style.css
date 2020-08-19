@@ -1,8 +1,6 @@
 * {
     box-sizing: border-box;
     background-color: #8B7A85;
-}
-body {
     margin: 0;
     padding: 0;
 }
@@ -10,22 +8,36 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 2em 10%;
+}
+.logo {
+    cursor: pointer;
 }
 .nav-links{
-    display: flex;
+    list-style: none
     padding: 0;
     margin: 0;
 }
 .nav-links>li{
-    list-style: none;
-    padding: 1em;
+    display: inline-block;
+    padding: 0 1.5em;
 }
 .nav-links>li>a{
     text-decoration: none;
     color: #FFFFFF;
-    font-family: "Comic Sans MS";
+    transition: all 0.3s ease 0s;
 }
 .nav-links>li>a:hover{
     color: black;
-    background-color: #FFFFFF;
+}
+button {
+    padding: .5em 2em;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
 }
